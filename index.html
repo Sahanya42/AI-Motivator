@@ -12,7 +12,7 @@
         <a href="#home">Home</a>
         <a href="#gallery">Gallery</a>
         <a href="#tips">Tips</a>
-        <a href="#table">Motivation Table</a>
+        <a href="#planner">Motivation Planner</a>
         <a href="#quotes">Quotes</a>
       </nav>
     </header>
@@ -20,8 +20,106 @@
     <section id="home">
       <h1>AI-Powered Motivator</h1>
       <p>Unlock your inner strength—let AI craft the perfect words to match your mood and fuel your journey.</p>
-      <button>Get My Motivation</button>
+      <button id="scrollBtn">Get My Motivation</button>
+
     </section>
+
+      <section id="gallery">
+    <h2>Motivation Gallery</h2>
+    <div class="gallery">
+      <img src="img/1.png" alt="Inspiration 1">
+      <img src="img/2.png" alt="Inspiration 2">
+      <img src="img/3.png" alt="Inspiration 3">
+      <img src="img/4.png" alt="Inspiration 4">
+      <img src="img/5.png" alt="Inspiration 5">
+    </div>
+  </section>
+
+  <section id="tips">
+  <h2>Motivation Tips</h2>
+  <div class="tips-container">
+    <div class="tip">Set Small, Achievable Goals – Break big tasks into smaller steps so progress feels rewarding.</div>
+    <div class="tip">Create a Routine – A daily structure helps you stay consistent and reduces procrastination.</div>
+    <div class="tip">Surround Yourself with Positivity – Spend time with supportive people, read inspiring books, or listen to motivational podcasts.</div>
+    <div class="tip">Track Your Progress – Keep a journal or checklist. Seeing improvement keeps you motivated.</div>
+    <div class="tip">Reward Yourself – Celebrate small wins (a break, a treat, or doing something you enjoy).</div>
+    <div class="tip">Visualize Your Success – Picture what achieving your goal will feel like; it makes the journey meaningful.</div>
+    <div class="tip">Focus on the “Why” – Remind yourself why you started and what you’re working toward when things get tough.</div>
+    <div class="tip">Limit Distractions – Turn off unnecessary notifications and create a focused environment to stay on track.</div>
+    <div class="tip">Practice Gratitude – Each day, write down 2–3 things you’re grateful for. It shifts your mindset toward positivity and motivation.</div>
+  </div>
+</section>
+
+<section id="planner">
+  <h2>Weekly Daily Motivation Planner</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th>Morning Motivation</th>
+      <th>Midday Action</th>
+      <th>Evening Reflection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Day">Monday</td>
+      <td data-label="Morning Motivation">Write 1 big goal for the week</td>
+      <td data-label="Midday Action">Take a 10-min walk to clear mind</td>
+      <td data-label="Evening Reflection">Write 1 achievement of the day</td>
+    </tr>
+    <tr>
+      <td data-label="Day">Tuesday</td>
+      <td data-label="Morning Motivation">Read an inspiring quote</td>
+      <td data-label="Midday Action">Learn something new (article, video)</td>
+      <td data-label="Evening Reflection">Note 1 lesson learned</td>
+    </tr>
+    <tr>
+      <td data-label="Day">Wednesday</td>
+      <td data-label="Morning Motivation">Do 5 min meditation</td>
+      <td data-label="Midday Action">Connect with someone positive</td>
+      <td data-label="Evening Reflection">List 3 things you’re grateful for</td>
+    </tr>
+    <tr>
+      <td data-label="Day">Thursday</td>
+      <td data-label="Morning Motivation">Write down 3 priorities</td>
+      <td data-label="Midday Action">Take a short mindful break</td>
+      <td data-label="Evening Reflection">Reflect: “What did I do well today?”</td>
+    </tr>
+    <tr>
+      <td data-label="Day">Friday</td>
+      <td data-label="Morning Motivation">Visualize your end-of-week success</td>
+      <td data-label="Midday Action">Do a fun/creative activity</td>
+      <td data-label="Evening Reflection">Write down weekly progress</td>
+    </tr>
+    <tr>
+      <td data-label="Day">Saturday</td>
+      <td data-label="Morning Motivation">Affirmations: “I can. I will.”</td>
+      <td data-label="Midday Action">Spend time on hobby/self-care</td>
+      <td data-label="Evening Reflection">Reflect: “What made me happy today?”</td>
+    </tr>
+    <tr>
+      <td data-label="Day">Sunday</td>
+      <td data-label="Morning Motivation">Plan 3 goals for next week</td>
+      <td data-label="Midday Action">Relax, recharge, light reading</td>
+      <td data-label="Evening Reflection">Write a gratitude note for the week</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+
+<section id="quotes">
+  <h2>Share Your Mood & Get Motivated</h2>
+  <p>Type your current mood and receive a personalized motivational quote!</p>
+  
+  <div class="mood-container">
+    <input type="text" id="moodInput" placeholder="How are you feeling today?">
+    <button id="getQuote">Get Quote</button>
+  </div>
+
+  <div id="quoteDisplay"></div>
+</section>
 
     <script src="script.js"></script>
 </body>

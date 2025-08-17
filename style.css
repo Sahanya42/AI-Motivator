@@ -82,18 +82,13 @@ nav a:hover {
   transform: scale(1.05);
 }
 
- .gallery {
+.gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 10px;
       text-align: center;
     }
-    .gallery h2{
-        color: #ffff;
-        font-size: 2rem;
-        margin-bottom: 20px;
-    }
-
+  
     img {
       max-width: 100%;
       height: auto;
